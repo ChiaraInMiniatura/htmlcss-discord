@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generali */
+
+body{
+  background-color: aqua;
+}
+
+.clearflix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80vw;
+  height:100%;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.box{
+  background-color: yellow;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+  
+}
+/* header */
+
+header{
+  background-color: blue;
+  height: 200px;
+}
+.jumbotron{
+  background-color: red;
+  width: 100%;
+  height: 50vh;
+}
+
+/* main */
+
+section{
+  height: 200px
+}
+.odd{
+  background-color: darkgreen;
+
+}
+.odd .container{
+  background-color: brown;
+}
+.no-float .container{
+  background-color: chocolate;
+}
+
+/* footer */
+
+footer{
+  background-color: black;
+  height: 300px;
+}
