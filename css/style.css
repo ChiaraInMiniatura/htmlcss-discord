@@ -25,6 +25,7 @@ body{
 
 .box{
   float: left;
+
 }
 
 .button{
@@ -60,7 +61,7 @@ header{
   margin-top: 20px;
 }
 
-.nav{
+.box.nav{
   width: 50%;
   margin-top: 25px;
   text-align: center;
@@ -114,18 +115,43 @@ nav ul li a{
   margin: 20px;
 }
 
-/* main */
+/* MAIN */
 
 section{
-  height: 200px
+  height: 80vh;
+  background-color: rgb(195, 195, 195);
 }
-.odd{
-  background-color: darkgreen;
 
+.odd{
+  background-color: white;
 }
-.odd .container{
-  background-color: brown;
+
+.box.img1{
+  width: 60%;
 }
+
+/* sezione 1 */
+
+.box.img1 img{
+  width: 100%;
+}
+
+.box.text1{
+  width: 20%;
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+.box.text1 h2{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/* sezione 2 */
+
+
+
+
 .no-float .container{
   background-color: chocolate;
 }
